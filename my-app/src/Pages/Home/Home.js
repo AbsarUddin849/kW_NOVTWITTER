@@ -15,6 +15,7 @@ function Home(){
             <div className="rightContainer">
            
                 <LoginOption/> 
+              <p className="links">Terms of Service&nbsp;&nbsp; Privacy Policy&nbsp;&nbsp;Cookie Policy&nbsp;&nbsp;Accessibility&nbsp;&nbsp;Ads infoMore&nbsp;© 2023 X Corp.</p>
             
             </div>
 

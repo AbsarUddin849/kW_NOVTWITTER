@@ -1,0 +1,49 @@
+.card{
+    margin: 5px 10px 0px 18px;
+    border-radius: 5px;
+    width: 350px;
+    padding-top: 12px;
+}
+.card-title{
+    font-weight:bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+    
+    
+}
+.signGoogle{
+    border-radius:20px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color:transparent;
+  
+}
+
+.signApple{
+    border-radius:20px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color:transparent;
+}
+.createAccount {  border-radius:20px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color:transparent;
+}
+.design{
+    color: rgb(126, 152, 232);
+    
+}
+.para{
+    font-size: 13px;
+     font-weight: 400;
+}
+
+

@@ -15,3 +15,14 @@
 .rightContainer{
     width: 30%;
 }
+ul li{
+    color: green;
+    display: flex;
+
+}
+.footer{
+    text-align: center;
+}
+.links{
+  padding: 10px;
+}
