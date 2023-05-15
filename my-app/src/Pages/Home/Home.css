@@ -8,12 +8,12 @@
     width: 25%;
 }
 .centerContainer{
-    width: 45%;
+    width: 42%;
     border-left: 2px solid gainsboro ;
    border-right: 2px solid gainsboro;
 }
 .rightContainer{
-    width: 30%;
+    width: 33%;
 }
 ul li{
     color: green;

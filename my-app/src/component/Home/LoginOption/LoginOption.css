@@ -1,49 +1,40 @@
 .card{
-    margin: 5px 10px 0px 18px;
-    border-radius: 5px;
-    width: 350px;
-    padding-top: 12px;
+    margin: 12px 18px 24px 36px;
+    border-radius: 16px !important;
+    border: 1px solid rgb(239, 243, 244);
+    padding-right: 6px;
 }
 .card-title{
-    font-weight:bold;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
 }
-
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 160px;
-    
-    
+.card-text{
+    font-size: 14px;
+    color: gray;
 }
-.signGoogle{
-    border-radius:20px;
-    padding: 5px;
-    border: 1px solid black;
-    background-color:transparent;
-  
+.btn{
+    width: 100%;
+    margin: 6px 0px;
+    border-radius: 36px !important;
+    color: black !important;
+    border: 1.5px solid rgb(239, 243, 244)!important;
+   
 }
-
-.signApple{
-    border-radius:20px;
-    padding: 5px;
-    border: 1px solid black;
-    background-color:transparent;
+.btn-primary{
+    background-color: transparent!important;
 }
-.createAccount {  border-radius:20px;
-    padding: 5px;
-    border: 1px solid black;
-    background-color:transparent;
+.imgControl{
+    width: 22px;
+    height: 22px;
 }
-.design{
-    color: rgb(126, 152, 232);
-    
+.termText{
+    font-size:13px!important;
+    font-weight: 400;
+    color: rgb(83, 100, 113) !important;
+   font-family: Arial, Helvetica, sans-serif;
+  padding:12px 0px 10px 0px !important;
 }
-.para{
-    font-size: 13px;
-     font-weight: 400;
+.termLinks{
+    display: inline!important;
+    color: rgb(29, 155, 240)!important;
 }
-
-
