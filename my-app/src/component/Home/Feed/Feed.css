@@ -20,8 +20,33 @@
     border: none;
     background-color: transparent;
     height: 38px ;
-   
+}
 
-  
-    
+.menues{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px 12px !important;
+    margin-left:0px !important; 
+    color: black;
+    font-weight: bold;
+    height: fit-content;
+
+}
+/* .banner img {
+    width: 100%;
+    height: 100%;
+    padding:0px 5px;
+} */
+.banner{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+    background-image: url("https://media.istockphoto.com/id/1361855790/pt/foto/abstract-composition-with-connecting-dots-and-lines-blue-background-plexus-effect.jpg?s=1024x1024&w=is&k=20&c=fp4P4nEwFFQ1t7QYV4FIH8rI_qBBDxs91_GeCC5uy9k=");
+}
+.p{
+    color: aliceblue;
 }
