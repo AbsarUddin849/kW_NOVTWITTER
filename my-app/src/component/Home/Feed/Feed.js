@@ -1,5 +1,13 @@
  import "./Feed.css";
+import Trend from'../Trend/Trend'
 function Feed(){
+
+  fetch("trend.json")
+    .then(res=>res.json())
+    .then(res=>{
+      console.log(res);
+    })
+ 
     return(
    
       <div className="feed-main">  
@@ -18,7 +26,7 @@ function Feed(){
       </div> 
       {/* Nav bar */}
       <nav> 
-        <ul class="menues">
+        <ul className="menues">
           <li><a href="#"> For you </a></li>
           <li> <a href="#">Trending </a> </li>
           <li><a href="#"> News</a></li>
@@ -27,13 +35,26 @@ function Feed(){
 
         </ul>
       </nav>
+
+      {/* Banner */}
       <div className="banner">
 
-        {/* <img  src="https://media.istockphoto.com/id/1361855790/pt/foto/abstract-composition-with-connecting-dots-and-lines-blue-background-plexus-effect.jpg?s=1024x1024&w=is&k=20&c=fp4P4nEwFFQ1t7QYV4FIH8rI_qBBDxs91_GeCC5uy9k="></img> */}
-        <p className="p">Sports.Live</p>
-        <p className="p">Fans celebrate Sania Mirza's Birthday</p>
-
+        
+        <p className="p">Sports.Live</p> 
+         <p className="p">Fans celebrate Sania Mirza's Birthday</p> 
       </div>
+      {/* Trends */}
+      
+    <Trend/>
+    <Trend/>
+    <Trend/>
+    <Trend/>
+    <Trend/>
+    <Trend/>
+    <Trend/>
+    <Trend/>
+    <Trend/>
+
     </div>  
 
     );

@@ -33,11 +33,8 @@
     height: fit-content;
 
 }
-/* .banner img {
-    width: 100%;
-    height: 100%;
-    padding:0px 5px;
-} */
+
+
 .banner{
     height: 400px;
     width: 100%;
@@ -45,8 +42,14 @@
     flex-direction: column;
     justify-content: end;
    
-    background-image: url("https://media.istockphoto.com/id/1361855790/pt/foto/abstract-composition-with-connecting-dots-and-lines-blue-background-plexus-effect.jpg?s=1024x1024&w=is&k=20&c=fp4P4nEwFFQ1t7QYV4FIH8rI_qBBDxs91_GeCC5uy9k=");
+    background:linear-gradient(to bottom,rgba(240, 236, 240, 0) 5%,rgb(206, 91, 9)), url("https://media.istockphoto.com/id/1361855790/pt/foto/abstract-composition-with-connecting-dots-and-lines-blue-background-plexus-effect.jpg?s=1024x1024&w=is&k=20&c=fp4P4nEwFFQ1t7QYV4FIH8rI_qBBDxs91_GeCC5uy9k=");
 }
 .p{
     color: aliceblue;
+    font-size:small;
+    font-weight: bolder;
+    color: rgb(0, 255, 132);
+    padding-left: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
 }
